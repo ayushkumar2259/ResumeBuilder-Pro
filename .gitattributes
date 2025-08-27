@@ -1,0 +1,17 @@
+# Ignore TypeScript config and build files in language statistics
+vite.config.ts linguist-vendored
+tailwind.config.ts linguist-vendored
+
+# Ignore all TypeScript config JSON files
+tsconfig.json linguist-vendored
+tsconfig.app.json linguist-vendored
+tsconfig.node.json linguist-vendored
+
+# Ignore mgx.dev internal folder (not part of actual source)
+.mgx/** linguist-vendored
+
+# Ignore build output
+dist/** linguist-vendored
+
+# Ignore PostCSS config
+postcss.config.js linguist-vendored
